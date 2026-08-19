@@ -267,6 +267,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             // 
             // Form1
             // 
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(986, 581);
             this.Controls.Add(this.cbo3);
             this.Controls.Add(this.cbo2);
