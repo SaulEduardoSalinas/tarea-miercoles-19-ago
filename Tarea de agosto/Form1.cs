@@ -85,7 +85,8 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
 
             if (resultado == DialogResult.Yes)
             {
-                this.Close();
+                this.Close();    
+
             }
         }
     }
