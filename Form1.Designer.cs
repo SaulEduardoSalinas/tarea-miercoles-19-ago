@@ -41,33 +41,35 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             this.txt6 = new System.Windows.Forms.TextBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.cbo1 = new System.Windows.Forms.ComboBox();
+            this.lbl = new System.Windows.Forms.Label();
+            this.cbo2 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lbl1
             // 
             this.lbl1.AutoSize = true;
-            this.lbl1.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(139, 9);
+            this.lbl1.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1.Location = new System.Drawing.Point(115, 9);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(595, 29);
+            this.lbl1.Size = new System.Drawing.Size(792, 39);
             this.lbl1.TabIndex = 0;
-            this.lbl1.Text = "Sistema Gestion del Tiempo y la demanda primer nivel";
+            this.lbl1.Text = "Sistema Gestion del Tiempo y la demanda primer nivel.";
             // 
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-            this.lbl2.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(44, 55);
+            this.lbl2.Font = new System.Drawing.Font("Microsoft Tai Le", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl2.Location = new System.Drawing.Point(11, 57);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(214, 29);
+            this.lbl2.Size = new System.Drawing.Size(266, 35);
             this.lbl2.TabIndex = 1;
-            this.lbl2.Text = "datos del paciente.";
+            this.lbl2.Text = "Datos del paciente.";
             // 
             // lbl3
             // 
             this.lbl3.AutoSize = true;
             this.lbl3.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl3.Location = new System.Drawing.Point(7, 139);
+            this.lbl3.Location = new System.Drawing.Point(12, 120);
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(208, 26);
             this.lbl3.TabIndex = 2;
@@ -77,7 +79,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             // 
             this.lbl4.AutoSize = true;
             this.lbl4.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl4.Location = new System.Drawing.Point(23, 206);
+            this.lbl4.Location = new System.Drawing.Point(12, 195);
             this.lbl4.Name = "lbl4";
             this.lbl4.Size = new System.Drawing.Size(181, 29);
             this.lbl4.TabIndex = 3;
@@ -87,7 +89,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             // 
             this.lbl5.AutoSize = true;
             this.lbl5.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl5.Location = new System.Drawing.Point(85, 284);
+            this.lbl5.Location = new System.Drawing.Point(49, 269);
             this.lbl5.Name = "lbl5";
             this.lbl5.Size = new System.Drawing.Size(96, 29);
             this.lbl5.TabIndex = 4;
@@ -97,7 +99,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             // 
             this.lbl6.AutoSize = true;
             this.lbl6.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl6.Location = new System.Drawing.Point(66, 375);
+            this.lbl6.Location = new System.Drawing.Point(31, 354);
             this.lbl6.Name = "lbl6";
             this.lbl6.Size = new System.Drawing.Size(115, 29);
             this.lbl6.TabIndex = 5;
@@ -107,7 +109,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             // 
             this.lbl7.AutoSize = true;
             this.lbl7.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl7.Location = new System.Drawing.Point(482, 122);
+            this.lbl7.Location = new System.Drawing.Point(31, 441);
             this.lbl7.Name = "lbl7";
             this.lbl7.Size = new System.Drawing.Size(162, 29);
             this.lbl7.TabIndex = 6;
@@ -117,7 +119,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             // 
             this.lbl8.AutoSize = true;
             this.lbl8.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl8.Location = new System.Drawing.Point(494, 218);
+            this.lbl8.Location = new System.Drawing.Point(518, 116);
             this.lbl8.Name = "lbl8";
             this.lbl8.Size = new System.Drawing.Size(146, 29);
             this.lbl8.TabIndex = 7;
@@ -127,17 +129,17 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             // 
             this.lbl9.AutoSize = true;
             this.lbl9.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl9.Location = new System.Drawing.Point(513, 291);
+            this.lbl9.Location = new System.Drawing.Point(518, 193);
             this.lbl9.Name = "lbl9";
-            this.lbl9.Size = new System.Drawing.Size(127, 29);
+            this.lbl9.Size = new System.Drawing.Size(133, 29);
             this.lbl9.TabIndex = 8;
-            this.lbl9.Text = "7.Telefono";
+            this.lbl9.Text = "7.Telefono:";
             // 
             // lbl10
             // 
             this.lbl10.AutoSize = true;
             this.lbl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl10.Location = new System.Drawing.Point(467, 371);
+            this.lbl10.Location = new System.Drawing.Point(478, 274);
             this.lbl10.Name = "lbl10";
             this.lbl10.Size = new System.Drawing.Size(186, 25);
             this.lbl10.TabIndex = 9;
@@ -145,91 +147,123 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(210, 477);
+            this.btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btn1.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn1.Location = new System.Drawing.Point(84, 503);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(144, 77);
+            this.btn1.Size = new System.Drawing.Size(207, 77);
             this.btn1.TabIndex = 10;
             this.btn1.Text = "Procesar Registro ";
-            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.UseVisualStyleBackColor = false;
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(394, 477);
+            this.btn2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btn2.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.Location = new System.Drawing.Point(320, 503);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(144, 77);
+            this.btn2.Size = new System.Drawing.Size(207, 77);
             this.btn2.TabIndex = 11;
             this.btn2.Text = "Verificar Expediente ";
-            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.UseVisualStyleBackColor = false;
             // 
             // btn3
             // 
-            this.btn3.Location = new System.Drawing.Point(573, 477);
+            this.btn3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn3.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.Location = new System.Drawing.Point(557, 503);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(139, 77);
+            this.btn3.Size = new System.Drawing.Size(208, 77);
             this.btn3.TabIndex = 12;
             this.btn3.Text = "Volver A menu Principal";
-            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.UseVisualStyleBackColor = false;
             // 
             // txt7
             // 
-            this.txt7.Location = new System.Drawing.Point(678, 298);
+            this.txt7.Location = new System.Drawing.Point(660, 200);
             this.txt7.Name = "txt7";
-            this.txt7.Size = new System.Drawing.Size(100, 22);
+            this.txt7.Size = new System.Drawing.Size(150, 22);
             this.txt7.TabIndex = 13;
             // 
             // txt1
             // 
-            this.txt1.Location = new System.Drawing.Point(234, 143);
+            this.txt1.Location = new System.Drawing.Point(226, 123);
             this.txt1.Name = "txt1";
             this.txt1.Size = new System.Drawing.Size(144, 22);
             this.txt1.TabIndex = 14;
             // 
             // txt2
             // 
-            this.txt2.Location = new System.Drawing.Point(221, 213);
+            this.txt2.Location = new System.Drawing.Point(199, 200);
             this.txt2.Name = "txt2";
-            this.txt2.Size = new System.Drawing.Size(100, 22);
+            this.txt2.Size = new System.Drawing.Size(144, 22);
             this.txt2.TabIndex = 15;
             // 
             // txt3
             // 
-            this.txt3.Location = new System.Drawing.Point(197, 289);
+            this.txt3.Location = new System.Drawing.Point(147, 274);
             this.txt3.Name = "txt3";
-            this.txt3.Size = new System.Drawing.Size(100, 22);
+            this.txt3.Size = new System.Drawing.Size(144, 22);
             this.txt3.TabIndex = 16;
             // 
             // txt5
             // 
-            this.txt5.Location = new System.Drawing.Point(678, 129);
+            this.txt5.Location = new System.Drawing.Point(190, 446);
             this.txt5.Name = "txt5";
-            this.txt5.Size = new System.Drawing.Size(100, 22);
+            this.txt5.Size = new System.Drawing.Size(133, 22);
             this.txt5.TabIndex = 17;
             // 
             // txt4
             // 
-            this.txt4.Location = new System.Drawing.Point(210, 382);
+            this.txt4.Location = new System.Drawing.Point(147, 359);
             this.txt4.Name = "txt4";
-            this.txt4.Size = new System.Drawing.Size(100, 22);
+            this.txt4.Size = new System.Drawing.Size(130, 22);
             this.txt4.TabIndex = 18;
             // 
             // txt6
             // 
-            this.txt6.Location = new System.Drawing.Point(678, 223);
+            this.txt6.Location = new System.Drawing.Point(660, 123);
             this.txt6.Name = "txt6";
-            this.txt6.Size = new System.Drawing.Size(100, 22);
+            this.txt6.Size = new System.Drawing.Size(160, 22);
             this.txt6.TabIndex = 19;
             // 
             // cbo1
             // 
             this.cbo1.FormattingEnabled = true;
-            this.cbo1.Location = new System.Drawing.Point(678, 375);
+            this.cbo1.Location = new System.Drawing.Point(680, 278);
             this.cbo1.Name = "cbo1";
-            this.cbo1.Size = new System.Drawing.Size(121, 24);
+            this.cbo1.Size = new System.Drawing.Size(164, 24);
             this.cbo1.TabIndex = 20;
+            // 
+            // lbl
+            // 
+            this.lbl.AutoSize = true;
+            this.lbl.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl.Location = new System.Drawing.Point(443, 359);
+            this.lbl.Name = "lbl";
+            this.lbl.Size = new System.Drawing.Size(221, 29);
+            this.lbl.TabIndex = 21;
+            this.lbl.Text = "9. Triage/Prioridad:";
+            // 
+            // cbo2
+            // 
+            this.cbo2.FormattingEnabled = true;
+            this.cbo2.Items.AddRange(new object[] {
+            "Emergencia",
+            "Urgencia",
+            "Prioridad",
+            "Estable",
+            "Menor"});
+            this.cbo2.Location = new System.Drawing.Point(680, 359);
+            this.cbo2.Name = "cbo2";
+            this.cbo2.Size = new System.Drawing.Size(164, 24);
+            this.cbo2.TabIndex = 22;
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(986, 587);
+            this.ClientSize = new System.Drawing.Size(986, 581);
+            this.Controls.Add(this.cbo2);
+            this.Controls.Add(this.lbl);
             this.Controls.Add(this.cbo1);
             this.Controls.Add(this.txt6);
             this.Controls.Add(this.txt4);
@@ -282,6 +316,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
         private System.Windows.Forms.TextBox txt6;
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.ComboBox cbo1;
-
-        }
+        private Label lbl;
+        private ComboBox cbo2;
+    }
     }

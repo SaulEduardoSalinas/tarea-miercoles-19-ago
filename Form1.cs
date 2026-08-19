@@ -40,6 +40,9 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             string direccion = txt6.Text.Trim();
             string telefono = txt7.Text.Trim();
             string tipoSangre = cbo1.Text.Trim();
+            string triage = cbo2.Text.Trim();
+            
+                
 
             if (string.IsNullOrEmpty(nombreCompleto) || string.IsNullOrEmpty(expediente) || string.IsNullOrEmpty(cedulaDui))
             {
@@ -55,7 +58,10 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
                              $"5. Cédula/DUI: {cedulaDui}\n" +
                              $"6. Dirección: {direccion}\n" +
                              $"7. Teléfono: {telefono}\n" +
-                             $"8. Tipo de Sangre: {tipoSangre}";
+                             $"{8}. Tipo de Sangre: {tipoSangre}\n" +
+                                $"{9}. Triage/Prioridad: {triage}\n";
+
+
 
             MessageBox.Show(resumen, "Registro Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
