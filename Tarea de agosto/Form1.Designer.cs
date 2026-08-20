@@ -25,10 +25,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             this.lbl4 = new System.Windows.Forms.Label();
             this.lbl5 = new System.Windows.Forms.Label();
             this.lbl6 = new System.Windows.Forms.Label();
-            this.lbl7 = new System.Windows.Forms.Label();
-            this.lbl8 = new System.Windows.Forms.Label();
             this.lbl9 = new System.Windows.Forms.Label();
-            this.lbl10 = new System.Windows.Forms.Label();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
@@ -36,10 +33,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             this.txt1 = new System.Windows.Forms.TextBox();
             this.txt2 = new System.Windows.Forms.TextBox();
             this.txt3 = new System.Windows.Forms.TextBox();
-            this.txt5 = new System.Windows.Forms.TextBox();
-            this.txt6 = new System.Windows.Forms.TextBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.cbo1 = new System.Windows.Forms.ComboBox();
             this.lbl = new System.Windows.Forms.Label();
             this.cbo2 = new System.Windows.Forms.ComboBox();
             this.cbo3 = new System.Windows.Forms.ComboBox();
@@ -59,7 +53,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             // 
             this.lbl2.AutoSize = true;
             this.lbl2.Font = new System.Drawing.Font("Microsoft Tai Le", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(11, 57);
+            this.lbl2.Location = new System.Drawing.Point(369, 64);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(266, 35);
             this.lbl2.TabIndex = 1;
@@ -105,26 +99,6 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             this.lbl6.TabIndex = 5;
             this.lbl6.Text = "4.Genero:";
             // 
-            // lbl7
-            // 
-            this.lbl7.AutoSize = true;
-            this.lbl7.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl7.Location = new System.Drawing.Point(31, 441);
-            this.lbl7.Name = "lbl7";
-            this.lbl7.Size = new System.Drawing.Size(175, 31);
-            this.lbl7.TabIndex = 6;
-            this.lbl7.Text = "5. cedula/Dui:";
-            // 
-            // lbl8
-            // 
-            this.lbl8.AutoSize = true;
-            this.lbl8.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl8.Location = new System.Drawing.Point(518, 116);
-            this.lbl8.Name = "lbl8";
-            this.lbl8.Size = new System.Drawing.Size(158, 31);
-            this.lbl8.TabIndex = 7;
-            this.lbl8.Text = "6. Direccion:";
-            // 
             // lbl9
             // 
             this.lbl9.AutoSize = true;
@@ -134,16 +108,6 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             this.lbl9.Size = new System.Drawing.Size(143, 31);
             this.lbl9.TabIndex = 8;
             this.lbl9.Text = "7.Telefono:";
-            // 
-            // lbl10
-            // 
-            this.lbl10.AutoSize = true;
-            this.lbl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl10.Location = new System.Drawing.Point(478, 274);
-            this.lbl10.Name = "lbl10";
-            this.lbl10.Size = new System.Drawing.Size(186, 25);
-            this.lbl10.TabIndex = 9;
-            this.lbl10.Text = "8.Tipo de Sangre:";
             // 
             // btn1
             // 
@@ -206,28 +170,6 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             this.txt3.Size = new System.Drawing.Size(144, 22);
             this.txt3.TabIndex = 16;
             // 
-            // txt5
-            // 
-            this.txt5.Location = new System.Drawing.Point(190, 446);
-            this.txt5.Name = "txt5";
-            this.txt5.Size = new System.Drawing.Size(133, 22);
-            this.txt5.TabIndex = 17;
-            // 
-            // txt6
-            // 
-            this.txt6.Location = new System.Drawing.Point(660, 123);
-            this.txt6.Name = "txt6";
-            this.txt6.Size = new System.Drawing.Size(160, 22);
-            this.txt6.TabIndex = 19;
-            // 
-            // cbo1
-            // 
-            this.cbo1.FormattingEnabled = true;
-            this.cbo1.Location = new System.Drawing.Point(680, 278);
-            this.cbo1.Name = "cbo1";
-            this.cbo1.Size = new System.Drawing.Size(164, 24);
-            this.cbo1.TabIndex = 20;
-            // 
             // lbl
             // 
             this.lbl.AutoSize = true;
@@ -240,6 +182,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             // 
             // cbo2
             // 
+            this.cbo2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo2.FormattingEnabled = true;
             this.cbo2.Items.AddRange(new object[] {
             "Emergencia",
@@ -272,9 +215,6 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             this.Controls.Add(this.cbo3);
             this.Controls.Add(this.cbo2);
             this.Controls.Add(this.lbl);
-            this.Controls.Add(this.cbo1);
-            this.Controls.Add(this.txt6);
-            this.Controls.Add(this.txt5);
             this.Controls.Add(this.txt3);
             this.Controls.Add(this.txt2);
             this.Controls.Add(this.txt1);
@@ -282,10 +222,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
-            this.Controls.Add(this.lbl10);
             this.Controls.Add(this.lbl9);
-            this.Controls.Add(this.lbl8);
-            this.Controls.Add(this.lbl7);
             this.Controls.Add(this.lbl6);
             this.Controls.Add(this.lbl5);
             this.Controls.Add(this.lbl4);
@@ -307,10 +244,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
         private System.Windows.Forms.Label lbl4;
         private System.Windows.Forms.Label lbl5;
         private System.Windows.Forms.Label lbl6;
-        private System.Windows.Forms.Label lbl7;
-        private System.Windows.Forms.Label lbl8;
         private System.Windows.Forms.Label lbl9;
-        private System.Windows.Forms.Label lbl10;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn2;
         private System.Windows.Forms.Button btn3;
@@ -318,10 +252,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
         private System.Windows.Forms.TextBox txt1;
         private System.Windows.Forms.TextBox txt2;
         private System.Windows.Forms.TextBox txt3;
-        private System.Windows.Forms.TextBox txt5;
-        private System.Windows.Forms.TextBox txt6;
         private System.Windows.Forms.ColorDialog colorDialog1;
-        private System.Windows.Forms.ComboBox cbo1;
         private Label lbl;
         private ComboBox cbo2;
         private ComboBox cbo3;

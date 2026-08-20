@@ -17,17 +17,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if (cbo1.Items.Count == 0)
-            {
-                cbo1.Items.Add("A+");
-                cbo1.Items.Add("A-");
-                cbo1.Items.Add("B+");
-                cbo1.Items.Add("B-");
-                cbo1.Items.Add("AB+");
-                cbo1.Items.Add("AB-");
-                cbo1.Items.Add("O+");
-                cbo1.Items.Add("O-");
-            }
+            throw new NotImplementedException();
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -36,15 +26,12 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
             string expediente = txt2.Text.Trim();
             string edad = txt3.Text.Trim();
             string genero = cbo3.Text.Trim();
-            string cedulaDui = txt5.Text.Trim();
-            string direccion = txt6.Text.Trim();
             string telefono = txt7.Text.Trim();
-            string tipoSangre = cbo1.Text.Trim();
             string triage = cbo2.Text.Trim();
-            
-                
 
-            if (string.IsNullOrEmpty(nombreCompleto) || string.IsNullOrEmpty(expediente) || string.IsNullOrEmpty(cedulaDui))
+
+
+            if (string.IsNullOrEmpty(nombreCompleto) || string.IsNullOrEmpty(expediente) )
             {
                 MessageBox.Show("Por favor, complete al menos el Nombre, N° Expediente y Cédula/DUI.", "Campos incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -55,10 +42,7 @@ namespace sistema_gestion_del_tiempo_y_la_demanada_primer_nivel
                              $"2. Expediente: {expediente}\n" +
                              $"3. Edad: {edad}\n" +
                              $"4. Género: {genero}\n" +
-                             $"5. Cédula/DUI: {cedulaDui}\n" +
-                             $"6. Dirección: {direccion}\n" +
                              $"7. Teléfono: {telefono}\n" +
-                             $"{8}. Tipo de Sangre: {tipoSangre}\n" +
                                 $"{9}. Triage/Prioridad: {triage}\n";
 
 
